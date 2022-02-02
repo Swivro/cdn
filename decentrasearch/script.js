@@ -28,7 +28,7 @@ links[25] = "https://searx.webheberg.info/?preferences=eJx1VlGP2zYM_jXnFyOHtd2w9
      
 function openLink() {
   var i = ~~(Math.random() * links.length);
-  window.openlinks[i] + "&q=" + document.getElementsByClassName("searchsearx")[0].value;
+  window.open = links[i] + "&q=" + document.getElementsByClassName("searchsearx")[0].value;
   return false;
 }
 
