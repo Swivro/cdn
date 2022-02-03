@@ -1,3 +1,13 @@
+// variables for searx instances
+one = "https://search.ononoki.org/";
+two = "https://searx.be/";
+three = "https://searx.tiekoetter.com/";
+four = "https://paulgo.io/";
+five = "https://searx.bar/";
+six = "https://search.disroot.org/";
+seven = "https://swag.pw/";
+eight = "https://searx.prvcy.eu/";
+
 // automatically create cookies for search config
 
 // start one
@@ -139,15 +149,6 @@ document.cookie = "disabled_plugins= ; path=" + seven;
 document.cookie = "enabled_plugins= ; path=" + seven;
 document.cookie = "tokens= ; path=" + seven;
 // end seven
-
-one = "https://search.ononoki.org/"
-two = "https://searx.be/";
-three = "https://searx.tiekoetter.com/";
-four = "https://paulgo.io/";
-five = "https://searx.bar/";
-six = "https://search.disroot.org/";
-seven = "https://swag.pw/";
-eight = "https://searx.prvcy.eu/";
 
 let links = [];
 links[0] = one;
