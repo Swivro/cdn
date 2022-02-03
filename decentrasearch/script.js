@@ -9,6 +9,23 @@ links[6] = "https://swag.pw/?preferences=eJx1Vk1z3DYM_TXWRWNPk7TT5rAnz_TaziQ9ayA
 links[7] = "https://searx.prvcy.eu/?preferences=eJxtVsGu2zgM_Jr1xUiBbg978qHYxaIFFnjFJu3VoGXG5loSXUpO4vf1SyV2Iic9PD-YlsjhzIiKgYgdC2GoOvQoYAsLvpugwwr97vu-sGzAppcCpsiG3WgxYtVOZkh_HRfkdHU9Cl_m6iATFg5jz2317W1_KAIcMSCI6auPRezRYcXBgBSCYbIx1Oxrj-c6QlP9DTZg0TLV-pHtCaUKhnb91HyI5-K6bRfirGgsd2S4xVMB7Qm8wbZeiiw5KEBjNYq-I6_NNeS78kQtcqjr2__ffv9Tpmbu0GmIor7yiF5wTEuOZDGtaKnr6jqwIbClw5ZAgx4UWl0vhGngKIhl4GM8g2DZkqCJLPOS1s8Ade2mQEbfzjQoorPWSE8NwDiUjkRYHmVvW9a3jrmzWG52CbYtRa2QyE-BgA58JFMG07MFTabcoVJz_fbuweWIA0--NZan9oFMIQv6-J4RlMD-nDhivrcFsrPjSCrdY-lAZoCQs7vAfmHdGLOLpzwwpcJmzotgZLYhjyQsDfOwCUYeZo4ceh4gR9PEm3L3wM-zslPe2MpYUwuRfgDJqUyVVOFAcX4GcOI5mT2LrpVWsVZhnjwzIkqcGnyBtFG1RXxP1lolWZOv7350i6kwqgTeqpVyMD00AumxrDqzPQo4sGMPuSFu_rojaacW_SbPVbo1CQ1Ja5CtQMJnavPIovcv_EdeSxFP4dGJJUUqc5m2B9poOoOW3_KSJXg13JpyqT9amEsYx_CqyZLtKOQHApNJfp0PL-5oKDY64zAuTLRk4jtvKb_u3IB9nKPtcb6ntdyEiB9knTsncshZZ2mQlSrtdCmT55ZVeXvXlh-df_z06Y9LloA8PKVTP5f0dHJWlPcslwxjmq4NSrcUfzpn6xaQC51ypW92XYi4jeSUqUyPJdXkg_YQ-qyYmx06HZhlFPDB6p20MZYRDkHwmBfqENWVDlcObzZXU-Gv6OITYXiaazoCxWyk7ChaaJb9d3utIj5RcA0X6Lf3zOq0JzfngeuxzwOO_9NmNhGMyoxssXVaCcJmZ0iDa8wH0uPmG-2kkEL1g9zO0oB1z3HAOXXy1R_Jkw71oMzalOhNb776szGoDf_19lXv37PoAv3yhUPUuwM1pFQavHe85t9fRU7XuLn9lpj1KrZ6AabNSebbQn07COhZkvr7v_9oNtUERaN7tMdaEbE4SGMmAfxyOHzbryAKJR610P-64kSy";
 
 function openLink() {
+  document.cookie = "categories=general; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "language=en; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "locale=en; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "autocomplete=duckduckgo; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "image_proxy=1; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "method=POST; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "safesearch=0; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "theme=oscar; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "results_on_new_tab=0; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "doi_resolver=oadoi.org; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "oscar-style=logicodev; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "advanced_search=0; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "disabled_engines= ; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "enabled_engines= ddg definitions__general,yahoo__general,google__general,bing__general,qwant__general,gigablast__general,reddit__general,startpage__general,mojeek__general,google play apps__files,google play movies__videos,duckduckgo__general; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "disabled_plugins= ; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "enabled_plugins= ; expires=Thu, 18 Dec 2913 12:00:00 UTC";
+  document.cookie = "tokens= ; expires=Thu, 18 Dec 2913 12:00:00 UTC";
   var i = ~~(Math.random() * links.length);
   window.location.href = (links[i] + "&q=" + document.getElementsByClassName("searchsearx")[0].value);
   return false;
