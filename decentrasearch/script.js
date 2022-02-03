@@ -150,14 +150,14 @@ seven = "https://swag.pw/";
 eight = "https://searx.prvcy.eu/";
 
 let links = [];
-links[0] = "https://search.ononoki.org/";
-links[1] = "https://searx.be/";
-links[2] = "https://searx.tiekoetter.com/";
-links[3] = "https://paulgo.io/";
-links[4] = "https://searx.bar/";
-links[5] = "https://search.disroot.org/";
-links[6] = "https://swag.pw/";
-links[7] = "https://searx.prvcy.eu/";
+links[0] = one;
+links[1] = two;
+links[2] = three;
+links[3] = four;
+links[4] = five;
+links[5] = six;
+links[6] = seven;
+links[7] = eight;
 
 function openLink() {
   var i = ~~(Math.random() * links.length);
