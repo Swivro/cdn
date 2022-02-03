@@ -30,5 +30,8 @@ input.addEventListener("keyup", function(event) {
 var windowName = 'userConsole'; 
 var popUp = window.open('../', windowName, 'width=1000, height=700, left=24, top=24, scrollbars, resizable');
 if (popUp == null || typeof(popUp)=='undefined') { 	
-	alert('Please disable your pop-up blocker and try again.'); 
+	alert('Please disable your pop-up blocker and try again.');
+}
+else {
+popUp.close()
 }
