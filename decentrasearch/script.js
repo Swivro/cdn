@@ -25,3 +25,10 @@ input.addEventListener("keyup", function(event) {
    document.getElementById("btnsend").click();
   }
 });
+
+// check if popup blocker is enabled
+var windowName = 'userConsole'; 
+var popUp = window.open('../', windowName, 'width=1000, height=700, left=24, top=24, scrollbars, resizable');
+if (popUp == null || typeof(popUp)=='undefined') { 	
+	alert('Please disable your pop-up blocker and try again.'); 
+}
