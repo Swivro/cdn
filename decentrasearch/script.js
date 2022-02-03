@@ -30,7 +30,7 @@ input.addEventListener("keyup", function(event) {
 var windowName = 'userConsole'; 
 var popUp = window.open('../', windowName, 'width=1000, height=700, left=24, top=24, scrollbars, resizable');
 if (popUp == null || typeof(popUp)=='undefined') { 	
-	alert('Please disable your pop-up blocker and try again.');
+	alert('To use Decentrasearch, you must disable your pop-up blocker for this page. Decentrasearch uses window.open() and browsers seem to think that it is a non user-initiated pop-up.');
 }
 else {
 popUp.close()
