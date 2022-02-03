@@ -12,8 +12,7 @@ links[8] = "https://searx.tux.land/?preferences=eJx1VVGP2zYM_jXxi3HF2m7Y-pCH4oah
 
 function openLink() {
   var i = ~~(Math.random() * links.length);
-  let newTab = window.open();
-  newTab.location.href = (links[i] + "&q=" + document.getElementsByClassName("searchsearx")[0].value, '_blank');
+  window.open(links[i] + "&q=" + document.getElementsByClassName("searchsearx")[0].value, '_blank');
   return false;
 }
 
