@@ -1,8 +1,9 @@
+.result {
+ border-radius: 8px !important;
+}
+
 @media screen and (max-width: 540px) {
   #search_header {
     padding-top: 10px !important;
   }
-}
-.result {
- border-radius: 8px !important;
 }
