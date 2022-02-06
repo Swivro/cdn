@@ -1,12 +1,5 @@
-.index, .title {
-margin-bottom: -1px !important;
-}
-
 @media screen and (max-width: 600px) {
   #search_header {
     max-width: 90% !important;
-  }
-  .search_box {
-    padding-top: 30px !important;
   }
 }
