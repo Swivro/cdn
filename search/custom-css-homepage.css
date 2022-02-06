@@ -1,16 +1,3 @@
-.title {
-margin-bottom: -1px !important;
-}
-.search_box {
-padding-top: 30px;
-}
-
-@media screen and (max-width: 600px) {
-  .search_box {
-    padding-top: 0px !important;
-  }
-}
-
 @media screen and (max-width: 600px) {
   #search_header {
     max-width: 90% !important;
