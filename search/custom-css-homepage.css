@@ -1,3 +1,15 @@
+.index .title {
+  margin: 0px !important;
+  width: fit-content;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   #search_header {
     max-width: 90% !important;
