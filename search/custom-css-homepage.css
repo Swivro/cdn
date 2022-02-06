@@ -2,7 +2,7 @@
 margin-bottom: -1px !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #search_header {
     max-width: 90% !important;
   }
