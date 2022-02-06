@@ -1,6 +1,9 @@
 .result {
  border-radius: 8px !important;
 }
+.image_thumbnail {
+ border-radius: 10px !important;
+}
 
 @media screen and (max-width: 540px) {
   #search_header {
