@@ -1,7 +1,9 @@
 .index, .title {
-margin-bottom: -1px !important;
+  margin-bottom: -1px !important;
 }
-
+.search_box {
+  max-width: 580px;
+}
 @media screen and (max-width: 1280px) {
   .search_box {
     padding-top: 30px !important;
