@@ -3,7 +3,8 @@
 //var script = document.createElement('script');
 //script.src = "https://cdn.swivro.net/jquery-203.min.js";
 //document.head.appendChild(script)
-document.head.innerHTML += "<script src='https://cdn.swivro.net/jquery-203.min.js'></script>"; 
+// document.head.innerHTML += "<script src='https://cdn.swivro.net/jquery-203.min.js'></script>"; 
+import ("https://cdn.swivro.net/jquery-203.min.js");
 // end import jquery
 
 
