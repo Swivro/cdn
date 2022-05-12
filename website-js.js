@@ -1,8 +1,9 @@
 // start import jquery
-var script = document.createElement('script');
-script.src = "https://cdn.swivro.net/jquery-203.min.js";
-document.head.appendChild(script)
 
+//var script = document.createElement('script');
+//script.src = "https://cdn.swivro.net/jquery-203.min.js";
+//document.head.appendChild(script)
+document.body.innerHTML += "<script src='https://cdn.swivro.net/jquery-203.min.js'></script>"; 
 // end import jquery
 
 
